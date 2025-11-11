@@ -1,12 +1,10 @@
 :root {
-    background-color: #eaffbb;
+    background-color: #ffffff;
 }
 
 body {
-    padding: 2rem;
-
-    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #272727;
+    padding: 3rem;
 }

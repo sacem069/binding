@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Verona Serial";
+    src: url("fonts/verona-serial/VeronaSerial-Medium.woff2") format("woff2");
+    font-weight: 500;
+    
+}
+
+
+:root {
+    font-size: 130%;
+    
+}
+
+
+h1 {
+    font-family: "Verona Serial", serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 10rem;
+    text-align: center;
+    color: #CD3435;
+}
+
+ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0rem;
+}
+
+section:nth-child(2) {
+     background-color: #F5F0E4;
+     color: #191919;
+     padding: 4rem;
+     padding-bottom: 22rem;
+     padding-top: 10rem;
+     border-block-start: solid #CD3435 2rem;
+     border-block-end: solid #CD3435 2rem;
+}
+
+
+
+.author{
+    display: inline-block;
+    color: #3E3335;
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+
+    margin: 1rem auto;        
+    margin-top: -5rem;      
+    display: block;                 
+    text-align: center;            
+    max-width: max-content;
+}
+
+
+blockquote {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #EC7040;
+    text-align: center;
+     max-width: 50rem;   
+    margin: 3rem auto;  
+    margin-top: 9rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+
+
+
+article {
+  font-weight: 200;
+  max-width: 45rem;      
+  margin: 0 auto;        
+  text-align: left;   
+  padding: 0 1.5rem;   
+  padding-bottom: 5rem;
+}
+
+article p {
+  margin: 1.2rem 0;
+  line-height: 1.6;
+  margin-top: 2rem;
+  max-width: 70ch;
+}
+
+
+
+.strip {
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    max-width: 45rem; 
+    font-size: 1.2rem;
+    color: #3E3335;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 0 1.5rem; 
+    padding-bottom: 5rem;
+
+}
+
+.strip p {
+    font-weight: 250;
+    margin: 1.2rem 0;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-top: 2rem;
+    max-width: 70ch;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0.8;
+    margin-bottom: 2rem;
+     padding: 4rem;
+     margin-top: 3rem;
+
+}
+
+.personal{
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.op{
+     font-family: 'Rubik Glitch', cursive;
+     font-size: 4rem;
+     display: block;
+}
+
+.end {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: -25.5rem;
+    font-weight: 300;
+    color: #EC7040;
+}
+
+
+.link {
+    color:rgb(194, 170, 197);
+}
+
+.link:hover {
+    color: #EC7040;
+}
+
+.rub{
+    font-family: 'rubik glitch', cursive;
+    color: #EC7040;
+
+}
+
+.rib{
+    font-family: 'rubik glitch', cursive;
+    color: #3E3335;
+}
+
