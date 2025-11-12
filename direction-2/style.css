@@ -1,42 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@font-face {
+    font-family: 'SF Mono';
+    src: url("fonts/sf-mono/SFMonoMedium.woff") format("woff");
 
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url("fonts/sf-mono/SFMonoRegular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url("fonts/sf-mono/SFMonoLight.woff") format("woff");
+    font-weight: 400;
+
+}
 :root {
     font-size: 130%;
 }
 
 
-
 body {
-    font-family: 'roboto', sans-serif;
-    font-weight: lighter;
+    font-family: 'helvetica neue', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
     padding: 0rem;
 }
 
-h1 {
-    font-family: 'helvetica', bold;
-    font-size: 4rem;
+
+ol {
+    font-family: 'SF Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: -2rem;
+    font-weight: 400;
+    
+}
+
+li {
+    background-color: #d0d0d0;
+    color: #2a2a2a; 
+    border-radius: 1rem;
+    display: inline-flex;
+    padding: 0.125rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
 }
 
 
-section:nth-child(1) { 
-    color:#C2AAC5; 
-    background: linear-gradient(to bottom, #313339, #443232);;
-    padding: 4rem;
-    padding-bottom: 14rem;}
-    
-section:nth-child(2) {
-     background-color: #C2AAC5;
-     color: #3E3335;
-     padding: 4rem;
-     padding-bottom: 22rem;
-     padding-top: 10rem;
-     border-block-start: solid #EC7040 2rem;
-     border-block-end: solid #3E3335 5rem;}
 
 
 .title{
@@ -45,55 +60,80 @@ section:nth-child(2) {
     place-items: center;
     margin: 0 auto;
     display: block;
+    color:#ffffff;
+    margin-top: 8rem;
+    font-size: 2rem;
 
 }
+
+
 
 .block {
-    font-family: 'Rubik Glitch', cursive;
-    font-size: 8.5em;
-    font-weight: 100;
-    line-height: 1;
-    text-align: left;
-    margin: 0;
+    font-family: 'Inter', Geneva, Tahoma, sans-serif;
+}
+
+.script {
+    font-family: 'SF Mono', monospace;
+    font-weight: lighter;
 }
 
 
+section:nth-child(1) { 
+    color:#ffffff; 
+    background: linear-gradient(to bottom, #000000, #0e0088);;
+    padding: 4rem;
+    padding-bottom: 14rem;}
+    
 
 
 .author{
-    display: inline-block;
-    background-color: #d1b2d8;
-    color: #3E3335;
-    font-family: 'Lora', serif;
-    font-weight: 300;
-    font-size: 1.4rem;
+    display: flex;
+    /* display: inline-block; */
+    color: #e5e5e5;
+    font-family: 'SF Mono', monospace;
+    font-size: 1rem;
     padding: 0.5rem 2rem;
 
-    margin: 1rem auto;        
-    margin-top: -5rem;      
+ 
+
+    /* margin: 1rem auto;        
+    margin-top: 7rem;      
     display: block;                 
     text-align: center;            
-    max-width: max-content;
+    max-width: max-content; */
+}
+
+.name {
+    margin-right: 1rem;
+}
+
+.year{
+    margin-top: 3rem;
+    margin-left: 35rem;
 }
 
 
 blockquote {
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #EC7040;
-    text-align: center;
-     max-width: 50rem;   
-    margin: 3rem auto;  
-    margin-top: 9rem;
+    font-family: 'SF Mono', monospace;
+    font-weight: lighter;
+    inline-size: 8rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;   
+    margin-top: 14rem;
     line-height: 1.6;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 
 
 article {
+
+font-family: 'SF mono';
+inline-size: 25rem;
   font-weight: 200;
-  max-width: 45rem;      
+      
   margin: 0 auto;        
   text-align: left;   
   padding: 0 1.5rem;   
@@ -101,10 +141,13 @@ article {
 }
 
 article p {
-  margin: 1.2rem 0;
-  line-height: 1.6;
-  margin-top: 2rem;
-  max-width: 70ch;
+  inline-size: 34rem;
+  font-size: 0.9rem;
+  margin-left: -6rem;
+  /* margin: 1.2rem 0; */
+  line-height: 2;
+  margin-top: 5rem;
+
 }
 
 
@@ -133,29 +176,9 @@ article p {
 
 }
 
-h2{
-    text-align: center;
-    font-size: 4rem;
-    line-height: 0.8;
-    margin-bottom: 2rem;
-     padding: 4rem;
-     margin-top: 3rem;
 
-}
 
-.personal{
-    display: block;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    margin-bottom: 0.5rem;
 
-}
-
-.op{
-     font-family: 'Rubik Glitch', cursive;
-     font-size: 4rem;
-     display: block;
-}
 
 .end {
     text-align: center;
@@ -175,13 +198,8 @@ h2{
 }
 
 .rub{
-    font-family: 'rubik glitch', cursive;
     color: #EC7040;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
-
-.rib{
-    font-family: 'rubik glitch', cursive;
-    color: #3E3335;
-}
-
