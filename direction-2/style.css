@@ -8,29 +8,18 @@
 }
 
 
-.bar {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding-top: 0rem;
-  margin-top: -2rem;
-  
-}
-
-.bar li { 
-  font-size: 0.9rem;
-  font-weight: 400;
-  text-align: center;       
-  line-height: 1.4;
-  display: flex;
-}
-
 
 body {
     font-family: 'roboto', sans-serif;
     font-weight: lighter;
     font-size: 1.2rem;
     line-height: 1.6;
+    padding: 0rem;
+}
+
+h1 {
+    font-family: 'helvetica', bold;
+    font-size: 4rem;
 }
 
 
@@ -69,19 +58,7 @@ section:nth-child(2) {
 }
 
 
-.script{
-    font-family: 'Great Vibes', cursive;
-    font-size:11em;
-    color: #EC7040;
-    position: absolute;
-    display: inline-block;
-    margin-left: calc(15/11 * 1em);
-    margin-top: calc(9/11 * 1em);
-    inset-inline-end: 0.8em;
-    inset-block-end: 0.4em;
-    
 
-} 
 
 .author{
     display: inline-block;

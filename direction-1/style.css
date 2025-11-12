@@ -14,25 +14,59 @@
 
 .row {
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 1px 3fr;
 }
 
-.label {
+.label-title{
+    margin-left: 2rem;
+    font-weight: 400;
+    margin-top: 15rem;
     color: #CD3435;
+    
 }
 
+.label-author{
+    margin-left: 2rem;
+    font-weight: 400;
+    margin-top: 3rem;
+    color: #CD3435;
+    
+}
+
+.label-blockquote{
+    margin-left: 2rem;
+    font-weight: 400;
+    margin-top: 15rem;
+    color: #CD3435;
+    
+}
+
+.label-paragraph{
+    margin-left: 2rem;
+    font-weight: 400;
+    margin-top: 15rem;
+    color: #CD3435;
+    
+}
 h1 {
     border-block-start: solid #000000 0.1rem;
     font-family: "Verona Serial", serif;
     font-weight: 500;
     font-size: 6rem;
     line-height: 1;      
-    inline-size: 35rem; 
+    inline-size: 30rem; 
     margin-left: 15rem;
     margin-right: 10rem;
     margin-top: 10rem;
     text-align: left;
     color: #CD3435;
+}
+
+ol {
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
 }
 
 .left-bar {
@@ -45,15 +79,8 @@ h1 {
     font-family: helvetica;
     display: flex;
     gap: 2rem;
-    margin-left: 1rem;
-    margin-right: -6rem;
 }
-ol {
-    font-family: helvetica;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem;
-}
+
 
 
 body {
@@ -80,36 +107,39 @@ section:nth-child(2) {
     display: inline-block;
     color: #191919;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-left: 15rem;
     margin-top: 2rem;
+    margin-bottom: 15rem;
               
 }
 
 
 blockquote {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color: #191919;
     text-align: left;
-    inline-size: 35rem;
+    inline-size: 30rem;
     margin-left: 15rem;
     margin-top: 4rem;
     line-height: 1.6;
-    margin-bottom: 3rem;
+    margin-bottom: -9rem;
     margin-right: 3rem;
+    border-block-start: solid #3c3c3c 0.2rem;
+    border-block-end: solid #3c3c3c 0.2rem;
 }
 
 
 p {
   text-align: left;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.6;
-  inline-size: 35rem;
+  inline-size: 30rem;
 
   margin-left: 15rem;
-  margin-top: 9rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   margin-right: 3rem;
 

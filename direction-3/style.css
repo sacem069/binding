@@ -1,3 +1,210 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    font-size: 130%;
 }
+
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 0rem;
+  margin-top: -2rem;
+  
+}
+
+.bar li { 
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;       
+  line-height: 1.4;
+  display: flex;
+}
+
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+section:nth-child(1) { 
+    color:#C2AAC5; 
+    background: linear-gradient(to bottom, #313339, #443232);;
+    padding: 4rem;
+    padding-bottom: 14rem;}
+    
+section:nth-child(2) {
+     background-color: #C2AAC5;
+     color: #3E3335;
+     padding: 4rem;
+     padding-bottom: 22rem;
+     padding-top: 10rem;
+     border-block-start: solid #EC7040 2rem;
+     border-block-end: solid #3E3335 5rem;}
+
+
+.title{
+    position: relative;
+    padding: 10rem;
+    place-items: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.block {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 8.5em;
+    font-weight: 100;
+    line-height: 1;
+    text-align: left;
+    margin: 0;
+}
+
+
+.script{
+    font-family: 'Great Vibes', cursive;
+    font-size:11em;
+    color: #EC7040;
+    position: absolute;
+    display: inline-block;
+    margin-left: calc(15/11 * 1em);
+    margin-top: calc(9/11 * 1em);
+    inset-inline-end: 0.8em;
+    inset-block-end: 0.4em;
+    
+
+} 
+
+.author{
+    display: inline-block;
+    background-color: #d1b2d8;
+    color: #3E3335;
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+
+    margin: 1rem auto;        
+    margin-top: -5rem;      
+    display: block;                 
+    text-align: center;            
+    max-width: max-content;
+}
+
+
+blockquote {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #EC7040;
+    text-align: center;
+     max-width: 50rem;   
+    margin: 3rem auto;  
+    margin-top: 9rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+
+
+
+article {
+  font-weight: 200;
+  max-width: 45rem;      
+  margin: 0 auto;        
+  text-align: left;   
+  padding: 0 1.5rem;   
+  padding-bottom: 5rem;
+}
+
+article p {
+  margin: 1.2rem 0;
+  line-height: 1.6;
+  margin-top: 2rem;
+  max-width: 70ch;
+}
+
+
+
+.strip {
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    max-width: 45rem; 
+    font-size: 1.2rem;
+    color: #3E3335;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 0 1.5rem; 
+    padding-bottom: 5rem;
+
+}
+
+.strip p {
+    font-weight: 250;
+    margin: 1.2rem 0;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-top: 2rem;
+    max-width: 70ch;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0.8;
+    margin-bottom: 2rem;
+     padding: 4rem;
+     margin-top: 3rem;
+
+}
+
+.personal{
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.op{
+     font-family: 'Rubik Glitch', cursive;
+     font-size: 4rem;
+     display: block;
+}
+
+.end {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: -25.5rem;
+    font-weight: 300;
+    color: #EC7040;
+}
+
+
+.link {
+    color:rgb(194, 170, 197);
+}
+
+.link:hover {
+    color: #EC7040;
+}
+
+.rub{
+    font-family: 'rubik glitch', cursive;
+    color: #EC7040;
+
+}
+
+.rib{
+    font-family: 'rubik glitch', cursive;
+    color: #3E3335;
+}
+
