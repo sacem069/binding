@@ -49,7 +49,7 @@
     
 }
 h1 {
-    border-block-start: solid #000000 0.1rem;
+    border-block-start: solid #000000 0.2rem;
     font-family: "Verona Serial", serif;
     font-weight: 500;
     font-size: 6rem;
@@ -67,6 +67,7 @@ ol {
     display: flex;
     justify-content: space-between;
     padding: 3rem;
+    font-size: 1.5rem;
 }
 
 .left-bar {
@@ -91,15 +92,7 @@ body {
     padding: 0rem;
 }
 
-section:nth-child(2) {
-     background-color: #F5F0E4;
-     color: #191919;
-     padding: 4rem;
-     padding-bottom: 22rem;
-     padding-top: 10rem;
-     border-block-start: solid #3c3c3c 0.2rem;
-     border-block-end: solid #CD3435 2rem;
-}
+
 
 
 
@@ -117,7 +110,7 @@ section:nth-child(2) {
 
 blockquote {
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: #191919;
     text-align: left;
     inline-size: 30rem;
@@ -134,23 +127,33 @@ blockquote {
 p {
   text-align: left;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
-  inline-size: 30rem;
+  inline-size: 32rem;
 
   margin-left: 15rem;
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   margin-right: 3rem;
 
 }
 
 
-.end {
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: -25.5rem;
-    font-weight: 300;
-    color: #090909;
+.color-text{
+    background-color: #CD3435;
+    color: #F8F3E7;
+
 }
 
+footer {
+    background-color: #CD3435;
+    display: block;
+    inline-size: 100%;
+    block-size: 15rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20rem;
+    padding-top: 5rem;
+    font-weight: 400;
+    color: #F8F3E7;
+}
