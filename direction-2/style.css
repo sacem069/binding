@@ -144,7 +144,7 @@ inline-size: 25rem;
 
 article p {
   inline-size: 34rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-left: -6rem;
   /* margin: 1.2rem 0; */
   line-height: 2;
@@ -201,7 +201,7 @@ article p {
 }
 
 .rub{
-    color: #EC7040;
+    color: #e2e2e2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 

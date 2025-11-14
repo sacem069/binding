@@ -21,8 +21,26 @@ body {
     padding: 0;
     background-color: #09111F;
 }
-
 ol {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: -2rem;
+    font-size: 1.6rem;
+    
+}
+
+li {
+    color: #ffffff; 
+    border-radius: 1rem;
+    display: inline-flex;
+    padding: 0.3rem 0.7rem;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+/* ol {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -36,15 +54,14 @@ li {
     border-radius: 1rem;
     display: inline-flex;
     padding: 0.125rem 0.5rem;
-
-    gap:2rem;
-}
+    gap:3rem;
+} */
 
 
 section:nth-child(1) { 
     color:#A0BBC1; 
 
-background: linear-gradient(90deg, #2D424B 0%, rgba(10, 16, 30, 0.00) 66.26%);
+/* background: linear-gradient(90deg, #2D424B 0%, rgba(10, 16, 30, 0.00) 66.26%); */
     /* background: linear-gradient(to right, #1440c4, #443232);; */
     padding: 4rem;
     padding-bottom: 1rem;}
@@ -98,14 +115,19 @@ section:nth-child(2) {
 
 
 blockquote {
-    inline-size: 80%;
-    font-size: 1.5rem;
-    color: #A0BBC1;
+    inline-size: 90%;
+    font-size: 2rem;
+    color: #3d3d3d;
     text-align: left; 
     margin: 3rem auto;  
     margin-top: 7rem;
     line-height: 1.6;
     margin-bottom: 5rem;
+    background-color: #2ce7ac;
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    padding-left: 2rem;
+    
 }
 
 
@@ -114,15 +136,21 @@ article {
   font-weight: 200;     
   margin: 0 auto;        
   text-align: left;   
-  padding: 0 1.5rem;   
+  padding: 0rem;   
   padding-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 article p {
+    padding-top: 2rem;
     font-size: 2rem;
+
   margin: 1.2rem 0;
   line-height: 1.9;
   margin-top: 2rem;
+}
+.body-text{
+    margin-top:1rem;
 }
 
 
