@@ -124,7 +124,7 @@ body {
     text-align: left;
     /* inline-size: 30rem; */
     /* margin-left: 15rem; */
-    margin-left: -4rem;
+    margin-left: 0rem;
     margin-top: 4rem;
     line-height: 1.6;
     /* margin-bottom: -9rem; */
@@ -136,11 +136,13 @@ body {
 #second-bq{
     border-inline-start:4px dashed #000;
     padding-inline-start:2rem;
-    margin-inline-start:6rem;
+    margin-inline-start:-1rem;
+    inline-size: 90%;
     font-weight: 400;
     font-size: 1.8rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    /* margin-left: -1rem; */
 }
 
 
@@ -153,13 +155,16 @@ p {
   line-height: 1.6;
   inline-size: 32rem;
 
-  margin-left: 15rem;
-  margin-top: 3rem;
+  margin-left: 11rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   margin-right: 3rem;
 
 }
 
+.body-text{
+    margin-top:-10rem;
+}
 
 .color-text{
     background-color: #CD3435;
