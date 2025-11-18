@@ -1,9 +1,11 @@
 :root {
+     background-image: url("images/texture.jpg");
     background-color: #ffffff;
 }
 
 body {
-    font-family: 'helvetica', sans-serif;
+   
+    /* font-family: 'helvetica', sans-serif; */
     font-size: 1.2rem;
     line-height: 1.6;
     padding: 3rem;
