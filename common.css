@@ -4,9 +4,15 @@
 }
 
 body {
+    cursor: url("images/cursor.png") 0 0, auto !important;
    
     /* font-family: 'helvetica', sans-serif; */
     font-size: 1.2rem;
     line-height: 1.6;
     padding: 3rem;
+
+}
+
+* {
+  cursor: url("../images/cursor.png") 0 0, auto !important;
 }
