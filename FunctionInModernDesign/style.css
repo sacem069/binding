@@ -15,6 +15,68 @@
 }
 
 
+.image-split {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  height: 13rem; 
+}
+
+
+.split-left,
+.split-right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+
+.split-left {
+  background-image: url("../images/surf.jpg");
+  background-size: 400%;  
+  background-position: 3% 100%;
+}
+
+
+.split-right {
+  background-color: var(--color-green);
+}
+
+
+.square-big,
+.square-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.square-big {
+  width: 6.8rem;
+  height: 6.8rem;
+  max-width: 190px;
+  max-height: 190px;
+  background-color: var(--color-green);
+}
+
+
+.square-image {
+  width: 6.8rem;
+  height: 6.8rem;
+  max-width: 190px;
+  max-height: 190px;
+  background-image: url("../images/surf.jpg");
+  background-size: 570%;   
+  background-position: 66% 80%;
+}
+
+@media (max-width: 600px) {
+    .nav-item.green::before {
+        background: var(--color-green);
+    }
+}
+
 /* .navbar {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 

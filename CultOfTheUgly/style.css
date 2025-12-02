@@ -38,8 +38,8 @@
 
 .split-left {
   background-image: url("../images/surf.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: 400%;  
+  background-position: 3% 100%;
 }
 
 
@@ -61,8 +61,8 @@
 .circle-big {
   width: 8rem;
   height: 8rem;
-  max-width: 240px;
-  max-height: 240px;
+  max-width: 190px;
+  max-height: 190px;
   background-color: #ff5e3a;
 }
 
@@ -73,8 +73,8 @@
   max-width: 190px;
   max-height: 190px;
   background-image: url("../images/surf.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: 570%;   
+  background-position: 66% 80%;
 }
 
 
@@ -92,6 +92,14 @@
     width: 20rem;
     height: 20rem;
   }
+}
+
+
+@media (max-width: 600px) {
+    .nav-item.red::before {
+        background: var(--color-orange);
+        border-radius: 50%;
+    }
 }
 
 
@@ -147,6 +155,8 @@
         margin-top: 10rem;
     }
 }
+
+
 
 h1 {
     border-block-start: 1px dashed var(--color-orange);

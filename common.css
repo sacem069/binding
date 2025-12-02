@@ -60,7 +60,7 @@ body {
     color: #F8F3E7;
 }
 
-.red:hover {
+.orange:hover {
     background-color: var(--color-orange);
     color: #F8F3E7;
 }
@@ -83,6 +83,74 @@ body {
 
     .nav-item {
         font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Same grid but mobile-friendly */
+    .navbar {
+        height: 50px;
+    }
+
+    /* hide text labels */
+    .nav-item {
+        font-size: 0;
+        position: relative;
+        border-right: 2.5px solid var(--color-black);
+        /* height: 45px; */
+    }
+
+    /* remove right border on last item */
+    .nav-item:last-child {
+        border-right: none;
+    }
+
+    /* shape container */
+    .nav-item::before {
+        content: "";
+        position: absolute;
+        width: 1.6rem;
+        height: 1.6rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* HOME → cursor icon */
+    .nav-item.home::before {
+        background-image: url("../images/cursor2.svg");
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* CIRCLE → black */
+    .nav-item.orange::before {
+        background: var(--color-black);
+        border-radius: 50%;
+    }
+
+    /* SQUARE → black */
+    .nav-item.green::before {
+        background: var(--color-black);
+    }
+
+    /* TRIANGLE → black */
+    .nav-item.blue::before {
+        width: 0;
+        height: 0;
+        border-left: 0.9rem solid transparent;
+        border-right: 0.9rem solid transparent;
+        border-bottom: 1.6rem solid var(--color-black);
+        background: none;
+    }
+
+    /* disable hover on mobile */
+    .nav-item:hover {
+        background: none;
+        color: transparent;
     }
 }
 
