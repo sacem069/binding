@@ -294,12 +294,12 @@ p {
 
 @media (width > 600px) {
     .body-text {
-        font-size: 17px;
+        font-size: 18px;
         inline-size: 45%;
         text-align: left;
         margin: 0 auto;
         hyphens: auto;
-        margin-top: 15rem;
+        margin-top: 10rem;
     }
 }
 
