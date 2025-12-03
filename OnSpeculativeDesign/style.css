@@ -10,7 +10,7 @@
     font-size: 100%;
     background-color: #F8F3E7;
     font-family: "American Typewriter";
-    cursor: url("images/cursor.png") 0 0, auto !important;
+    cursor: url("images/cursor2.svg") 0 0, auto !important;
  
 }
 
@@ -334,5 +334,5 @@ p {
 }
 
 * {
-  cursor: url("../images/cursor.png") 0 0, auto !important;
+  cursor: url("../images/cursor2.svg") 0 0, auto !important;
 }

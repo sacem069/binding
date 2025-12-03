@@ -121,8 +121,8 @@ body {
 
     .nav-item.home::before {
         background-image: url("images/cursor2.svg");
-        width: 4rem;
-        height: 4rem;
+        width: 2rem;
+        height: 2rem;
     }
 
 
@@ -185,6 +185,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        gap: 2rem;
     }
 }
 
@@ -216,7 +217,7 @@ h1 {
 /* Right column (shapes + paragraph) */
 .hero-right {
     margin-left: 2rem;
-    max-width: 17rem;
+    /* max-width: 1rem; */
 }
 
 h2 {
@@ -229,10 +230,19 @@ h2 {
 
 @media (width > 600px) {
     h2 {
+        /* margin-right: 20rem; */
+        inline-size: 20rem;
+        line-height: 1.7rem;
+        margin-top: 1rem;
 
         font-size: 1.05rem;
     }
-}
+
+/* .hero-right {
+    margin-top: -4rem;
+
+}*/
+} 
 
 
 .color-text-orange {
@@ -254,7 +264,7 @@ h2 {
 
 .hero-cursor {
     position: absolute;
-    width: 80px;
+    width: 1.4rem;
     top: 84%;
     left: 60%;
     transform: translate(-50%, -50%);
@@ -273,7 +283,7 @@ h2 {
     position: relative;
     margin-top: -8rem;
     height: 200px;
-    margin-left: 17rem;
+    margin-left: 30rem;
 
 }
 
@@ -304,6 +314,7 @@ h2 {
     .landing-shapes {
         width: 400px;
         margin: 2rem auto 0;
+        margin-left: 5rem;
         margin-top: 0.2rem;
     }
 }
@@ -448,6 +459,6 @@ footer {
 
 
 * {
-    cursor: url("../images/cursor.png") 0 0, auto !important;
+    cursor: url("images/cursor2.svg") 0 0, auto !important;
 
 }
