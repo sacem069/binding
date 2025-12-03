@@ -120,7 +120,7 @@ body {
 
 
     .nav-item.home::before {
-        background-image: url("../images/cursor2.svg");
+        background-image: url("images/cursor2.svg");
         width: 4rem;
         height: 4rem;
     }
