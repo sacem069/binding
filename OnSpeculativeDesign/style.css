@@ -68,6 +68,52 @@
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
+
+.image-band {
+  background-color: var(--color-black);
+  padding: 4rem 0;
+  margin: 4rem 0;
+}
+
+.image-band-inner {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+
+  background-image: url("../images/surf.jpg");
+  background-size: 400%;
+  background-position: 90% 80%;
+  background-repeat: no-repeat;
+
+  background-color: var(--color-blue);
+  background-blend-mode: multiply;
+
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+@media (width > 600px) {
+  .image-split {
+    height: 17rem;
+  }
+
+  .split-left{
+      background-size: 300%;  
+       background-position: 3% 100%;
+
+  }
+
+  .triange-big {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .triangle-image {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
 @media (max-width: 600px) {
     .nav-item.blue::before {
         width: 0;

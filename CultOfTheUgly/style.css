@@ -305,8 +305,36 @@ p {
 
 
 .color-text {
-    background-color: var(--color-orange);
+    background-color: rgba(255, 94, 58, 0.90);
     color: #F8F3E7;
+}
+
+
+.image-band {
+  background-color: var(--color-black);  
+  padding: 4rem 0;             
+  margin: 4rem 0; 
+}            
+
+
+.image-band-inner {
+  width: 20rem;                      
+  height: 20rem;                    
+  margin: 0 auto;                     
+
+  border-radius: 50%;                
+  overflow: hidden;                   
+
+  background-image: url("../images/surf.jpg");
+  background-size: 400%;
+  background-position: 90% 80%;
+  background-repeat: no-repeat;
+
+  /* orange tint */
+  background-color: rgba(255, 94, 58);        
+  background-blend-mode:multiply;
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
 
 .footer {
@@ -315,6 +343,8 @@ p {
     padding: 5px 0;
     color: #F8F3E7;
 }
+
+
 
 * {
     cursor: url("../images/cursor2.svg") 0 0, auto !important;
