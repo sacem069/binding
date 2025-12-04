@@ -118,7 +118,7 @@
 .label-title {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 7.4rem;
     color: var(--color-orange);
 }
@@ -126,7 +126,7 @@
 .label-author {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 2.4rem;
     color: var(--color-orange);
 
@@ -135,7 +135,7 @@
 .label-quote {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 2.3rem;
     color: var(--color-orange);
 
@@ -150,7 +150,6 @@
     }
 
     .label-author {
-        /* margin-left: 150rem; */
         margin-left: 15rem;
         font-size: 120%;
 
@@ -218,6 +217,16 @@ body {
     }
 }
 
+.desktop-break {
+  display: inline; 
+}
+
+@media (min-width: 600px) {
+  .desktop-break {
+    display: block; 
+  }
+}
+
 
 #first-bq {
     font-weight: 600;
@@ -258,15 +267,16 @@ body {
     font-size: 1rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--color-orange);
+     line-height: 1.9;
 }
 
 @media (width > 600px) {
     #second-bq {
         font-size: 1.2rem;
         margin-top: 4rem;
-        /* inline-size: 60%; */
+    
     }
 }
 
@@ -275,7 +285,7 @@ p {
     text-align: left;
     margin-top: 2rem;
     margin-bottom: 5rem;
-    line-height: 1.8;
+    line-height: 1.9;
 
 }
 
@@ -311,7 +321,7 @@ p {
 
 
 .image-band {
-  background-color: var(--color-black);  
+  background-color: var(--color-orange);  
   padding: 4rem 0;             
   margin: 4rem 0; 
 }            
@@ -321,27 +331,17 @@ p {
   width: 20rem;                      
   height: 20rem;                    
   margin: 0 auto;                     
-
   border-radius: 50%;                
   overflow: hidden;                   
-
-  background-image: url("../images/surf.jpg");
-  background-size: 400%;
-  background-position: 90% 80%;
-  background-repeat: no-repeat;
-
-  /* orange tint */
-  background-color: rgba(255, 94, 58);        
-  background-blend-mode:multiply;
-
-  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  background-color: #F8F3E7; 
 }
+
+
 
 .footer {
     background-color: var(--color-orange);
-    margin-top: 20rem;
-    padding: 5px 0;
     color: #F8F3E7;
+margin-top: 15rem;
 }
 
 
