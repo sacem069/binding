@@ -401,6 +401,40 @@ h2 {
 
 
 
+.colophon-section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 7rem;
+}
+
+/* Card */
+
+.colophon-card {
+  max-width: 42rem;
+  width: 100%;
+  border: 2px solid #252525;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+  background-color: transparent; /* body is already beige */
+}
+
+.colophon-heading {
+  font-family: "Verona Serial", serif;
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+}
+
+.colophon-card p {
+  font-family: "American Typewriter", serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+
 .footer {
   /* padding: 1rem 0; */
   text-align: center;
@@ -412,8 +446,9 @@ h2 {
 
 
 .footer--landing {
-  background-color: var(--color-black);     
-  color: #F8F3E7;               
+  border: 2px solid var(--color-black);
+  background-color: #F8F3E7;
+  color: var(--color-black);                 
   /* padding: 4rem 0;      */
   line-height: 1rem;         
     padding-top: 3rem;
@@ -422,7 +457,8 @@ h2 {
 .footer--landing p {
  margin-top: 1rem;
   /* margin: 0.5rem 0; */
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
+   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 400;
 }
