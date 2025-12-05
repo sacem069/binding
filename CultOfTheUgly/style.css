@@ -118,7 +118,7 @@
 .label-title {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 7.4rem;
     color: var(--color-orange);
 }
@@ -126,7 +126,7 @@
 .label-author {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 2.4rem;
     color: var(--color-orange);
 
@@ -135,7 +135,7 @@
 .label-quote {
     font-size: 0.6rem;
     margin-left: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 2.3rem;
     color: var(--color-orange);
 
@@ -183,7 +183,7 @@ h1 {
         font-size: 7rem;
         margin-left: 20rem;
         /* margin-top: 10rem; */
-        inline-size: 60%;
+        inline-size: 50%;
     }
 }
 
@@ -248,7 +248,7 @@ body {
         margin-top: 4rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        inline-size: 60%;
+        inline-size: 50%;
     }
 }
 
@@ -267,7 +267,7 @@ body {
     font-size: 1rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--color-orange);
     line-height: 1.9;
 }
@@ -309,7 +309,7 @@ p {
         text-align: left;
         margin: 0 auto;
         hyphens: auto;
-        margin-top: 10rem;
+        margin-top: 12rem;
     }
 }
 
