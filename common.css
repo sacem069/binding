@@ -143,6 +143,9 @@ body {
 
     .nav-item.green::before {
         background: var(--color-black);
+         width: 1.5rem;
+        height: 1.5rem;
+
     }
 
 
@@ -291,6 +294,7 @@ h2 {
     gap: 4rem;
     margin-top: 15rem;
     margin-bottom: 15rem;
+    margin-right: 1rem;
 }
 
 
@@ -391,8 +395,7 @@ h2 {
 .summary-speculative {
     color: var(--color-black);
     margin-top: 2rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
     font-size: 1rem;
 }
 
