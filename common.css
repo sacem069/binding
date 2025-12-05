@@ -14,9 +14,10 @@
   font-family: "American Typewriter";
   src: url("fonts/american-typewriter/AmericanTypewriter-Semibold.woff2") format("woff2"),
        url("fonts/american-typewriter/AmericanTypewriter-Semibold.woff") format("woff");
-  font-weight: 600;   /* semibold */
+  font-weight: 600; 
   font-style: normal;
 }
+
 
 :root {
     background-color: #F8F3E7;
@@ -29,7 +30,6 @@
     --color-green: rgb(13, 160, 79);
     --color-black: #252525;
 }
-
 
 
 
@@ -47,17 +47,10 @@ body {
     width: 100%;
     background: #F8F3E7;
     border: 2px solid var(--color-black);
-      /* position: fixed; */
     position: sticky;
-
     z-index: 10;
 }
 
-
-/* hide when scrolling down */
-.navbar.hide {
-  transform: translateY(-100%);
-}
 
 
 .nav-item {
@@ -105,7 +98,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
     .navbar {
         height: 50px;
     }
@@ -382,8 +374,6 @@ h2 {
 }
 
 
-
-
 .summary-ugly {
     color: var(--color-black);
     margin-top: 2rem;
@@ -411,7 +401,6 @@ h2 {
         display: none;
     }
 }
-
 
 
 .colophon-section {
@@ -535,6 +524,7 @@ h2 {
     .colophon-section {
         padding: 2rem 1rem 13rem;
     }
+
 
     .footer--landing {
         background-image: url("images/surf.jpg");
